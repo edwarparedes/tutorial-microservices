@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  
+internal.lb.uri: http://localhost
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: user-service
+          uri: ${internal.lb.uri}:8001
+          predicates:
+            - Path=/user/**
+        - id: car-service
+          uri: ${internal.lb.uri}:8002
+          predicates:
+            - Path=/car/**
+        - id: bike-service
+          uri: ${internal.lb.uri}:8003
+          predicates:
+            - Path=/bike/**
