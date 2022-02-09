@@ -1,0 +1,13 @@
+#server.port=8003
+#spring.application.name=bike-service
+#+spring.data.mongodb.uri=mongodb+srv://edwar123:edwar123@cluster0.naakg.mongodb.net/Microservices-Bike?retryWrites=true&w=majority
+spring:
+  application:
+    name: bike-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  data:
+    mongodb:
+      uri: mongodb+srv://edwar123:edwar123@cluster0.naakg.mongodb.net/Microservices-Bike?retryWrites=true&w=majority

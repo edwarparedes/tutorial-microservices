@@ -1,0 +1,6 @@
+com\course\bikeservice\service\BikeServiceImpl.class
+com\course\bikeservice\repository\IBikeRepository.class
+com\course\bikeservice\controller\BikeController.class
+com\course\bikeservice\entity\Bike.class
+com\course\bikeservice\service\IBikeService.class
+com\course\bikeservice\BikeServiceApplication.class

@@ -1,0 +1,9 @@
+com\course\userservice\model\Bike.class
+com\course\userservice\repository\IUserRepository.class
+com\course\userservice\model\Car.class
+com\course\userservice\service\UserServiceImpl.class
+com\course\userservice\UserServiceApplication.class
+com\course\userservice\entity\User.class
+com\course\userservice\config\RestTemplateConfig.class
+com\course\userservice\controller\UserController.class
+com\course\userservice\service\IUserService.class
